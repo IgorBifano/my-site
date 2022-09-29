@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+
+
     <!-- Nome do Autor e da Página -->
     <meta name="author" content="Igor Bifano">
     <title>Igor Bifano</title>
@@ -14,11 +20,13 @@
 </head>
 <body>
     <header>
-        <!-- Logomarca -->
-        <img src="./all-images/logo.png" alt="Logomarca Igor Bifano IBX">
 
-        <!-- Menu -->
-        <nav>
+        <div id="logo">
+        <img src="./all-images/logo.png" alt="Logomarca Igor Bifano IBX" width="75px" height="75px">
+        </div>
+
+
+        <nav id="menu">
             <ul>
                 <li>
                     <a href="./about.html">Sobre</a>
@@ -35,21 +43,23 @@
             </ul>
         </nav>
 
-        <!-- Botão para códigos de programação do site -->
-        <button><img src="./all-images/menu.png" alt=""></button>
+
+        <div class="menu-dev"><img src="./all-images/menu.png" alt="Menu Programação" width="75px" height="75px"></div>
     </header>
 
     <div class="my-info">
-        <h1>Igor Bifano</h1>
-        <h2>FullStack Developer | Chief Executive Officer Primal Ent.</h2>
-        <h3>Músico, escritor e programador 
-            FullStack.</h3>
-        <h3>Estudo Engenharia de Software e atuo na área de PNL.</h3>
+        <h1 id="my-name">Igor Bifano</h1>
+    </div>
+    <div class="info-home">
+        <h2 id="info-home1">FullStack Developer | Chief Executive Officer in Primal Enterprises</h2>
+        <h4 id="info-home2">Músico, escritor de não-ficcão, gamer e programador 
+            FullStack</h4>
+        <h5 id="info-home3">Estudo Engenharia de Software e escrevo na área de PNL</h5>
     </div>
 
     <div class="initial-button">
             <!-- Botão para Iniciar o processo de "codar" -->
-        <Button>Pressione ctrl+i para iniciar</Button>
+        <Button id="button-initial">Pressione <kbd>Ctrl</kbd> + <kbd>I</kbd> para iniciar</Button>
     </div>
 
     <footer>
