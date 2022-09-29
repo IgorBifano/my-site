@@ -29,7 +29,7 @@ header {
 }
 
 #my-name {
-    color: linear-gradient(rgb(255,120,9), rgb(0,0,0));
+    color:rgb(255,255,255);
     margin-left: 300px;
     margin-top: 250px;
 }
