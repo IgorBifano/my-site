@@ -1,15 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+    <!-- Todo código necessita desses <metas> para que funcione corretamente em qualquer navegador -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style-index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
-
 
     <!-- Nome do Autor e da Página -->
     <meta name="author" content="Igor Bifano">
@@ -17,37 +16,42 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./all-images/favicon.png" type="image/x-icon">
-</head>
+
+    <!-- Estilos de Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Tirar o sublinhado dos hyperlinks -->
+    <style> a {text-decoration: none;} </style>
+
 <body>
     <header>
+        <!-- Logomarca com botão para index.html -->        
         <div>
-        <button id="button-logo"><img src="./all-images/logo.png" alt="Logomarca Igor Bifano IBX" width="75px" height="75px"></button>
+        <button id="button-logo"><img src="./all-images/logo.png" alt="Logomarca Igor Bifano IBX" width="75px" height="75px" title="Voltar à página Inicial"></button>
         </div>
-
-        <nav class="menu">
-            <ul>
-                <li>
+        
+        <main class="menu">
+            <nav id="menu-central">
                     <a href="./about.html">Sobre</a>
-                </li>
-                <li>
+
                     <a href="./projects.html">Projetos</a>
-                </li>
-                <li>
+
                     <a href="./setup.html">Setup</a>
-                </li>
-                <li>
+
                     <a href="./store.html">Loja</a>
-                </li>
-            </ul>
-        </nav>
+            </nav>
+        </main>
 
-
-        <div><button id="button-dev"><img src="./all-images/menu-code.png" alt="Menu Programação" width="75px" height="75px"></button></div>
+        <!-- Botão com janela de identificação para atalhos de códigos (Códigos nos quais serão criados para acessar as páginas)-->
+        <div><button id="button-dev"><img src="./all-images/menu-code.png" alt="Menu Programação" width="75px" height="75px" title="Abrir menu de códigos"></button></div>
     </header>
 
     <div class="my-info">
         <h1 id="my-name">Igor Bifano</h1>
     </div>
+
     <div class="info-home">
         <h2 id="info-home1">FullStack Developer | Chief Executive Officer in Primal Enterprises</h2>
         <h4 id="info-home2">Músico, escritor de não-ficcão, gamer e programador 
@@ -56,34 +60,26 @@
     </div>
 
     <div class="initial-button">
-            <!-- Botão para Iniciar o processo de "codar" -->
-        <Button id="button-initial">Pressione <kbd>Ctrl</kbd> + <kbd>I</kbd> para iniciar</Button>
+            <!-- Botão para Iniciar o processo para que o usuário possa "codar" as outras páginas-->
+        <Button id="button-initial" title="Aperte aqui para codar as páginas">Pressione <kbd>Ctrl</kbd> + <kbd>I</kbd> para iniciar</Button>
     </div>
 
     <footer>
         <!-- Rodapé com Redes Sociais -->
     <div class="social-list">
-        <ul>
-            <li>
-                <a href="https://github.com/IgorBifano">GitHub</a>
-            </li>
-            <li>
-                <a href="https://instagram.com/igorbifanoo">Instagram</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCms4_lU3ABoQipJ3Nz-wXKg">YouTube</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/igorbifanoo">Twitter</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/igorbifanoo/">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/igorbifano">Twitch</a>
-            </li>
-        </ul>
+                <a target="_" rel="noopener noreferrer" href="https://github.com/IgorBifano">GitHub</a>
+ 
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/igorbifanoo/">LinkedIn</a>
+
+                <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/igorbifanoo">Instagram</a>
+
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCms4_lU3ABoQipJ3Nz-wXKg">YouTube</a>
+
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/igorbifanoo">Twitter</a>
+
+                <a target="_blank" rel="noopener noreferrer" href="https://www.twitch.tv/igorbifano">Twitch</a>
     </div>  
+        <!-- A tag target blank serve para mandar o link para uma nova aba, geralmente é usado para links externos. -->
     </footer>
 </body>
 </html>
