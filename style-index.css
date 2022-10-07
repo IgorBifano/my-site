@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: rgb(0,0,0);
+    background-color: rgb(32,31,27);
 }
 
 header {
-    background-color: rgb(0,0,0);
+    background-color: rgb(32,31,27);
     margin: 0;
     margin-top: 0;
     align-items: center;
@@ -16,10 +16,15 @@ header {
     justify-content: space-between;
 }
 
-main.menu{
+#menu-central{
     display: flex;
     text-align: center;
     justify-content: space-between;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20%;
+    text-decoration: none;
 }
 
 #button-logo {
@@ -34,7 +39,9 @@ main.menu{
 }
 
 #my-name {
-    color:rgb(255,120,9);
+    display: flex;
+    color: rgb(255,94,30);
+    align-items: center;
     margin-left: 350px;
     margin-top: 200px;
     padding: 0px 0px 5px 0px;
@@ -49,13 +56,13 @@ main.menu{
 }
 
 #info-home2 {
-    color: rgb(255,255,255,70%);
+    color: rgba(255,255,255,70%);
     margin-left: 350px;
     font-family: 'Open Sans', sans-serif;
 }
 
 #info-home3 {
-    color: rgb(255,255,255,60%);
+    color: rgba(255,255,255,60%);
     margin-left: 350px;padding: 0px 0px 10px 0px;
     font-family: 'Open Sans', sans-serif;
 }
