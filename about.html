@@ -9,6 +9,7 @@
     <title>Sobre</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="./all-images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style-about.css">
 </head>
 <body>
     <header>
@@ -22,74 +23,64 @@
            </div>
            
         <!-- Menu -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="./about.html">Sobre</a>
-                </li>
-                <li>
-                    <a href="./projects.html">Projetos</a>
-                </li>
-                <li>
-                    <a href="./setup.html">Setup</a>
-                </li>
-                <li>
-                    <a href="./store.html">Loja</a>
-                </li>
-            </ul>
+        <nav class="menu">
+            <a href="./about.html">About</a></li>   
+
+            <a href="./projects.html">Projects</a></li>
+
+            <a href="./setup.html">Setup</a></li>
+
+            <a href="./store.html">Store</a></li>
         </nav>
 
-        <!-- Botão para códigos de programação do site -->
-        <button><img src="./all-images/menu.png" alt=""></button>
+        <div>
+            <button type="button" id="code-button"><img src="./all-images/menu-code.png" alt="Menu Programação" width="75px" height="75px" title="Abrir menu de códigos"></button>
+        </div>
     </header>
 
-    <div>
-        <h1>Sobre Mim</h1>
-
+    <main>
+    <div id="my-img">
         <img src="./all-images/sobre-perfil.png" alt="Foto Sobre Igor Bifano">
-
-        <p>
-            Meu nome é Igor Bifano, e eu escrevi o livro das 100 perguntas mágicas.
-        </p>
-
-        <p>
-            Sou músico, escritor e apaixonado por tecnologia. Atualmente estou aprendendo a codar em HTML, CSS e JavaScript.
-        </p>
-
-        <p>
-            Meu maior sonho é conehcer todos os países e culturas do mundo, então estudo Engenharia de Software e pretendo seguir profissão, pois atuando nessa área posso trabalhar remotamente de qualquer lugar que eu esteja.
-        </p>
-
-        <p>
-            Quando não estou trabalhando, estou codando algum projeto pessoal ou produzindo conteúdos para as redes: Instagram, Youtube ou fazendo lives na Twitch.
-        </p>
     </div>
 
+        <div class="about-me">
+            <h1>About me</h1>
+
+            <h3>
+                My name is Igor Bifano, and I wrote the book of the 100 magic questions.
+            </h3>
+
+            <p>
+                I'm a musician, writer and passionate about technology. I am currently learning to coercy in HTML, CSS and JavaScript.
+            </p>
+
+            <p>
+                My biggest dream is to know all the countries and cultures of the world, so I study Software Engineering and intend to pursue a profession, because working in this area I can work remotely from anywhere.
+            </p>
+
+            <p>
+                When I'm not working, I'm studying some personal project or producing content for networks: Instagram, Youtube or making lives on Twitch.
+            </p>
+        </div>
+    </main>
+
     <footer>
-             <!-- Rodapé com Redes Sociais -->
-        <div class="social-list">
-            <ul>
-                <li>
-                    <a href="https://github.com/IgorBifano">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/igorbifanoo">Instagram</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCms4_lU3ABoQipJ3Nz-wXKg">YouTube</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/igorbifanoo">Twitter</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/igorbifanoo/">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="https://www.twitch.tv/igorbifano">Twitch</a>
-                </li>
-            </ul>
-        </div>  
-        </footer>
+        <!-- Rodapé com Redes Sociais -->
+    <nav>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/IgorBifano">GitHub</a>
+ 
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/igorbifanoo/">LinkedIn</a>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/igorbifanoo">Instagram</a>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCms4_lU3ABoQipJ3Nz-wXKg">YouTube</a>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/igorbifanoo">Twitter</a>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://www.twitch.tv/igorbifano">Twitch</a>
+    </nav>  
+        <!-- A tag target blank serve para mandar o link para uma nova aba, geralmente é usado para links externos. -->
+    </footer>
 
     
 </body>
