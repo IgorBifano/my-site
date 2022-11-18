@@ -49,10 +49,11 @@ button {
     display: flex;
     flex-direction: column;
     margin-top: 12em;
-    margin-left: 16em;
     color: whitesmoke;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .my-info h1 {
