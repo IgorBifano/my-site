@@ -22,7 +22,6 @@ header {
     margin-left: 1em;
 }
 
-
 a {
     text-decoration: none;
     color: rgb(245, 245, 245);
@@ -36,8 +35,13 @@ button {
 .menu {
     display: flex;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(245, 245, 245);
     margin-top: 2em;
     gap: 1.5em;
+}
+
+.menu:hover {
+    color: rgb(255, 94, 30);
 }
 
 #code-button {
@@ -48,9 +52,9 @@ button {
 .my-info {
     display: flex;
     flex-direction: column;
-    margin-top: 12em;
-    color: whitesmoke;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 180px 500px 241px 0px;
+    color: rgb(245, 245, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -63,41 +67,52 @@ button {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     margin-bottom: 0.2em;
+    font-size: 40px;
 }
 
-.my-info h4 {
-    color: rgb(169, 168, 168);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.8em;
-    margin-top: 0.5em;
+.my-info p {
+    
+margin-bottom: 5px;
+font-size: 14px;
+}
+
+.my-info strong {
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #button-initial {
-    background-color: transparent;
-    padding: 5px 50px 5px 0px;
-    margin-top: 1.2em;
+    padding: 10px 10px 10px 0px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     font-size: 15px;
     font-weight: bold;
 }
 
+#button-initial:hover {
+    background-color: rgb(33, 32, 36);
+    padding: 10px;
+    border-radius: 8px;
+    outline: 0px;
+}
+
 kbd {
-    color: black;
+    color: rgb(33, 32, 36);
     background-color: rgb(169, 168, 168);
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 5px 10px;
     font-weight: bold;
 }
 
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 17.30em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }  
 
-footer.nav {
-    display: flex;
+footer:hover {
+    color: rgb(255, 94, 30);
 }
