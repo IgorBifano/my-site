@@ -59,11 +59,14 @@ button {
 
 main {
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 110px;
+    margin: 15vh 0 5vh 0;
+    /* margin-bottom: 5vh; */
+    /* margin-bottom: 110px; */
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
+    /* width: 1500px; */
+    height: 500px;
 }
 
 .about-me {
@@ -89,6 +92,8 @@ main {
 
 footer {
     display: flex;
+    flex: 1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
+    padding: 2vh;
 }  
